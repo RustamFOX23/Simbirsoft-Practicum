@@ -2,11 +2,11 @@ FROM python:3.6.15-alpine3.15
 
 WORKDIR /practiCUM
 
-COPY ./requirements.txt .
+COPY ./Flaskex/requirements.txt .
 
 RUN pip install --no-cache-dir -r requirements.txt
 
-COPY . .
+COPY ./Flaskex .
 
 EXPOSE 5000
 
