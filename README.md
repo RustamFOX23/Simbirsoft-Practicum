@@ -1,4 +1,4 @@
-### PractiCUM
+### Practicum
 
 #### Задание
 
